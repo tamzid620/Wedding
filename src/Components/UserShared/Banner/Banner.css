@@ -1,0 +1,35 @@
+.bannerInfo {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  transform: translate(0%, 150%);
+  width: 100%;
+}
+
+.h1 {
+  font-size: 46px ;
+  line-height: 40px;
+}
+
+.typeAnimationSpan {
+  width: 180px;
+  height: 60px;
+  display: inline-block;
+  background: transparent;
+  backdrop-filter: blur(12px);
+  border: 1px solid white;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+.ActionSpan {
+  font-size: 14px;
+  position: absolute;
+  left: 41%;
+  transform: translateX(-50%);
+  backdrop-filter: blur(12px);
+  padding-right: 7px;
+  padding-left: 7px;
+}
